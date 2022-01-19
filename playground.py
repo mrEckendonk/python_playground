@@ -68,3 +68,34 @@ tip = 0.15 * bill
 total = bill + tip
 share = total/2
 print("Each person needs to pay: " + str (share))
+
+
+
+def print_seconds(hours, minutes, seconds):
+    print(3600*hours+60*minutes+seconds)
+
+print_seconds(1,2,3)
+
+# Return Values
+def get_seconds(hours, minutes, seconds):
+  return 3600*hours + 60*minutes + seconds
+
+amount_a = get_seconds(2, 30 ,0)
+amount_b = get_seconds(0, 45, 15)
+result = amount_a + amount_b
+print(result)
+
+# The Principles of Code Reuse
+def month_days(month,days):
+    print(month + " has " + str(days) + " days.")
+month_days("June","30")
+month_days("July","31")
+
+# Code Style
+# Python is a case sensitive language.
+# Refactor the code.
+
+def rectangle_area(base, height):
+	z = base*height  # the area is base*height
+	print("The area is " + str(z))
+rectangle_area(5,6)
