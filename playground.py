@@ -159,3 +159,9 @@ print(number_group(-5)) #Should be Negative
 # 	else-block
 
 # Remember: The if-block will be executed if condition1 is True. The elif-block will be executed if condition1 is False and condition2 is True. The else block will be executed when all the specified conditions are false.
+
+x = 0
+while x < 5:
+  print("Not there yet, x=" + str(x))
+  x = x + 1
+  print("x is now " + str(x))
