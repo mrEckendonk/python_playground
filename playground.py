@@ -164,4 +164,8 @@ x = 0
 while x < 5:
   print("Not there yet, x=" + str(x))
   x = x + 1
+  # shorthand x += 1
   print("x is now " + str(x))
+
+
+  # Python program to check if given  number is power of 2 or not  Function to check if x is power of 2 
