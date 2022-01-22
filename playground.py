@@ -196,3 +196,11 @@ def factorial(n):
 for n in range(1,10):
     print(n, factorial(n))
 
+def fred():
+    print("Zap")
+def jane():
+    print("ABC")
+
+jane()
+fred()
+jane()
