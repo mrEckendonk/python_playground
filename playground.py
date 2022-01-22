@@ -167,5 +167,32 @@ while x < 5:
   # shorthand x += 1
   print("x is now " + str(x))
 
+#   # Python program to check if given  number is power of 2 or not  Function to check if x is power of 2 
 
-  # Python program to check if given  number is power of 2 or not  Function to check if x is power of 2 
+#   def is_power_of_two(n):
+#   # Check if the number can be divided by two without a remainder
+#   while n % 2 == 0:
+#     if n == 0 :
+#       break;      
+#     n = n / 2
+# # If after dividing by two the number is 1, it's a power of two
+#   if n == 1:
+#     return True
+#   return False
+  
+
+# print(is_power_of_two(0)) # Should be False
+# print(is_power_of_two(1)) # Should be True
+# print(is_power_of_two(8)) # Should be True
+# print(is_power_of_two(9)) # Should be False
+
+# Loops
+def factorial(n):
+    result = 1
+    for x in range(1,n+1):
+        result = result * x
+    return result
+
+for n in range(1,10):
+    print(n, factorial(n))
+
