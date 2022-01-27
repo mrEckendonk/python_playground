@@ -254,25 +254,7 @@ import sys
 # The function accepts 2D_INTEGER_ARRAY grid as parameter.
 #
 
-def numCells(grid):
-    # Write your code here
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    grid_rows = int(input().strip())
-    grid_columns = int(input().strip())
-
-    grid = []
-
-    for _ in range(grid_rows):
-        grid.append(list(map(int, input().rstrip().split())))
-
-    result = numCells(grid)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
 
 
 n = 0
@@ -291,3 +273,7 @@ for itervar in [3, 41, 12, 9, 74, 15]:
         break
     print("Loop:", itervar, smallest)
 print("Smallest:", smallest)
+
+
+for n in "banana":
+    print(n)
