@@ -276,4 +276,8 @@ print("Smallest:", smallest)
 
 
 for n in "banana":
-    print(n)
+    print(n) 
+
+# Slicing
+word = "bananana"
+i = word.find("na")
