@@ -281,3 +281,13 @@ for n in "banana":
 # Slicing
 word = "bananana"
 i = word.find("na")
+
+# find domain from email
+data = 'From mike.e@vecks.com.br Sat Jan  5 09:14:16 2008'
+atpos = data.find('@')
+print(atpos)
+sspos = data.find(' ', atpos)
+print(sspos)
+host = data[atpos+1:sspos]
+print(host)
+
