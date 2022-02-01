@@ -278,7 +278,7 @@ print("Smallest:", smallest)
 for n in "banana":
     print(n) 
 
-# Slicing
+# Slicing!
 word = "bananana"
 i = word.find("na")
 
@@ -291,6 +291,8 @@ print(sspos)
 host = data[atpos+1:sspos]
 print(host)
 
+
+# Count down
 for i in [5, 4, 3, 2, 1]:
     print(i)
 print ('takeoff')
