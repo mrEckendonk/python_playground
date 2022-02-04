@@ -296,3 +296,9 @@ print(host)
 for i in [5, 4, 3, 2, 1]:
     print(i)
 print ('takeoff')
+
+# Concatenating lists using +
+a = [1, 2, 3]
+b = [4, 5, 6]
+c = a + b
+print(c)
