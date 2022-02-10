@@ -377,5 +377,10 @@ print ("It's just", time_to_afd.days, "days until next April Fools' Day!")
 a, *b, c = ("Python", "C", "Java", "Rust", "C++", "Julia")
 print(*b)
 
+counts = { 'chuck' : 1 , 'annie' : 42, 'jan': 100}
+for key in counts:
+    if counts[key] > 10:
+        print(key, counts[key])
+
 if __name__ == "__main__":
     main()
